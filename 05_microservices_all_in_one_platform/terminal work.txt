@@ -1,0 +1,219 @@
+Microsoft Windows [Version 10.0.19045.4170]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\create_project_001>poetry --version
+Poetry (version 1.8.2)
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\create_project_001>conda deactivate
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\create_project_001>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\create_project_001>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2E7C-2DB4
+
+ Directory of C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\create_project_001
+
+03/22/2024  08:51 PM    <DIR>          .
+03/22/2024  08:51 PM    <DIR>          ..
+               0 File(s)              0 bytes
+               2 Dir(s)  66,882,363,392 bytes free
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\create_project_001>cd..
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2E7C-2DB4
+
+ Directory of C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform
+
+03/22/2024  08:56 PM    <DIR>          .
+03/22/2024  08:56 PM    <DIR>          ..
+03/22/2024  08:51 PM    <DIR>          create_project_001
+03/22/2024  08:55 PM             1,283 Fast Api with Poetry Steps.txt
+03/22/2024  08:55 PM             5,083 README.md
+03/22/2024  08:56 PM    <DIR>          test_poetry
+               2 File(s)          6,366 bytes
+               4 Dir(s)  66,881,163,264 bytes free
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform>poetry --version
+Poetry (version 1.8.2)
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform>poetry run python --version
+
+Poetry could not find a pyproject.toml file in C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform or its parents
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform>poetry new project_001
+Created package project_001 in project_001
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform>ls
+'ls' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform>cd project_001
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2E7C-2DB4
+
+ Directory of C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001
+
+03/22/2024  09:05 PM    <DIR>          .
+03/22/2024  09:05 PM    <DIR>          ..
+03/22/2024  09:05 PM    <DIR>          project_001
+03/22/2024  09:05 PM               286 pyproject.toml
+03/22/2024  09:05 PM                 0 README.md
+03/22/2024  09:05 PM    <DIR>          tests
+               2 File(s)            286 bytes
+               4 Dir(s)  66,759,188,480 bytes free
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry run python --version
+Creating virtualenv project-001-kES3SODz-py3.12 in C:\Users\Batch 37 PIAIC\AppData\Local\pypoetry\Cache\virtualenvs
+Python 3.12.2
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry inv list
+
+The command "inv" does not exist.
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry env list
+project-001-kES3SODz-py3.12 (Activated)
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2E7C-2DB4
+
+ Directory of C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001
+
+03/22/2024  09:20 PM    <DIR>          .
+03/22/2024  09:20 PM    <DIR>          ..
+03/22/2024  09:20 PM    <DIR>          .mypy_cache
+03/22/2024  09:19 PM    <DIR>          project_001
+03/22/2024  09:05 PM               286 pyproject.toml
+03/22/2024  09:05 PM                 0 README.md
+03/22/2024  09:05 PM    <DIR>          tests
+               2 File(s)            286 bytes
+               5 Dir(s)  65,305,821,184 bytes free
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry add request
+
+Could not find a matching version of package request
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry add requests
+Using version ^2.31.0 for requests
+
+Updating dependencies
+Resolving dependencies... (4.6s)
+
+Package operations: 5 installs, 0 updates, 0 removals
+
+  - Installing certifi (2024.2.2)
+  - Installing charset-normalizer (3.3.2)
+  - Installing idna (3.6)
+  - Installing urllib3 (2.2.1)
+  - Installing requests (2.31.0)
+
+Writing lock file
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry run python project_001.main.py
+C:\Python312\python.exe: can't open file 'C:\\Users\\Batch 37 PIAIC\\generative-ai\\05_microservices_all_in_one_platform\\project_001\\project_001.main.py': [Errno 2] No such file or directory
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 2E7C-2DB4
+
+ Directory of C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001
+
+03/22/2024  09:34 PM    <DIR>          .
+03/22/2024  09:34 PM    <DIR>          ..
+03/22/2024  09:20 PM    <DIR>          .mypy_cache
+03/22/2024  09:34 PM            17,646 poetry.lock
+03/22/2024  09:19 PM    <DIR>          project_001
+03/22/2024  09:34 PM               308 pyproject.toml
+03/22/2024  09:05 PM                 0 README.md
+03/22/2024  09:05 PM    <DIR>          tests
+               3 File(s)         17,954 bytes
+               5 Dir(s)  65,299,636,224 bytes free
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry run python project_001.main.py
+C:\Python312\python.exe: can't open file 'C:\\Users\\Batch 37 PIAIC\\generative-ai\\05_microservices_all_in_one_platform\\project_001\\project_001.main.py': [Errno 2] No such file or directory
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry run python C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001\project_001\main.py
+C:\Python312\python.exe: can't open file 'C:\\Users\\Batch': [Errno 2] No such file or directory
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry run python C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001\project_001\main.py
+C:\Python312\python.exe: can't open file 'C:\\Users\\Batch': [Errno 2] No such file or directory
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry run python c:/Users/Batch 37 PIAIC/generative-ai/05_microservices_all_in_one_platform/project_001/project_001/main.py
+C:\Python312\python.exe: can't open file 'c:\\Users\\Batch': [Errno 2] No such file or directory
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry run python ./project_001/main.py
+Hello World
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>clear
+'clear' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry add pytest
+Using version ^8.1.1 for pytest
+
+Updating dependencies
+Resolving dependencies... (4.8s)
+
+Package operations: 5 installs, 0 updates, 0 removals
+
+  - Installing colorama (0.4.6)
+  - Installing iniconfig (2.0.0)
+  - Installing packaging (24.0)
+  - Installing pluggy (1.4.0)
+  - Installing pytest (8.1.1)
+
+Writing lock file
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry run pytest
+=================================================================== test session starts ===================================================================
+platform win32 -- Python 3.12.2, pytest-8.1.1, pluggy-1.4.0
+rootdir: C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001
+configfile: pyproject.toml
+collected 2 items
+
+tests\test_myproject.py ..                                                                                                                           [100%]
+
+==================================================================== 2 passed in 0.09s ====================================================================
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry run pytest -v
+=================================================================== test session starts ===================================================================
+platform win32 -- Python 3.12.2, pytest-8.1.1, pluggy-1.4.0 -- C:\Users\Batch 37 PIAIC\AppData\Local\pypoetry\Cache\virtualenvs\project-001-kES3SODz-py3.12\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001
+configfile: pyproject.toml
+collected 2 items
+
+tests/test_myproject.py::test_function1 PASSED                                                                                                       [ 50%]
+tests/test_myproject.py::test_function2 PASSED                                                                                                       [100%]
+
+==================================================================== 2 passed in 0.03s ====================================================================
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry build
+Building project-001 (0.1.0)
+  - Building sdist
+  - Built project_001-0.1.0.tar.gz
+  - Building wheel
+  - Built project_001-0.1.0-py3-none-any.whl
+
+C:\Users\Batch 37 PIAIC\generative-ai\05_microservices_all_in_one_platform\project_001>poetry publish
+
+Publishing project-001 (0.1.0) to PyPI
+ - Uploading project_001-0.1.0-py3-none-any.whl FAILED
+
+HTTP Error 403: Invalid or non-existent authentication information. See https://pypi.org/help/#invalid-auth for more information. | b'<html>\n <head>\n  <title>403 Invalid or non-existent authentication information. See https://pypi.org/help/#invalid-auth for more information.\n \n <body>\n  <h1>403 Invalid or non-existent authentication information. See https://pypi.org/help/#invalid-auth for more information.\n  Access was denied to this resource.<br/><br/>\nInvalid or non-existent authentication information. See https://pypi.org/help/#invalid-auth for more information.\n\n\n \n'
+
